@@ -59,7 +59,7 @@ export default function OnBoarding() {
                 <Input id="name" name="name" value={userData.name} onChange={handleInputChange} />
               </div>
               <div className="space-y-2">
-                <Label htmlFor="email">Email</Label>
+                <Label htmlFor="email">EmaiL</Label>
                 <Input id="email" name="email" type="email" value={userData.email} onChange={handleInputChange} />
               </div>
               <div className="space-y-2">
