@@ -48,24 +48,24 @@ export default function Home() {
         <section className="w-full py-12 md:py-24 lg:py-32 bg-gray-100 dark:bg-gray-800">
           <div className="container px-4 md:px-6">
             <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl text-center mb-12">
-              Why Choose LearnQuest?
+              Why Choose Smart Play?
             </h2>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
               <Card>
                 <CardContent className="flex flex-col items-center p-6 space-y-4">
                   <BrainIcon className="h-12 w-12 text-primary" />
-                  <h3 className="text-xl font-bold">Personalized Learning</h3>
+                  <h3 className="text-xl font-bold">Gamified Learning</h3>
                   <p className="text-center text-gray-500 dark:text-gray-400">
-                    Tailored courses based on your interests and learning style.
+                    Gamified learning based on your interests and learning style.
                   </p>
                 </CardContent>
               </Card>
               <Card>
                 <CardContent className="flex flex-col items-center p-6 space-y-4">
                   <UsersIcon className="h-12 w-12 text-primary" />
-                  <h3 className="text-xl font-bold">Expert Instructors</h3>
+                  <h3 className="text-xl font-bold">Ai Tutor</h3>
                   <p className="text-center text-gray-500 dark:text-gray-400">
-                    Learn from industry professionals and thought leaders.
+                    Learn from Ai through prompts.
                   </p>
                 </CardContent>
               </Card>
@@ -81,9 +81,8 @@ export default function Home() {
               <Card>
                 <CardContent className="flex flex-col items-center p-6 space-y-4">
                   <BookOpenIcon className="h-12 w-12 text-primary" />
-                  <h3 className="text-xl font-bold">Diverse Course Catalog</h3>
                   <p className="text-center text-gray-500 dark:text-gray-400">
-                    Explore a wide range of subjects and skills.
+                    Explore a wide range of STEM subjects and skills.
                   </p>
                 </CardContent>
               </Card>
