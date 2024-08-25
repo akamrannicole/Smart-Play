@@ -1,13 +1,25 @@
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import WelcomePage from "./Pages/Welcome";
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import Home from './pages/home';
+import OnBoarding from './pages/onboard';
+import SignUp from './pages/SignUp';
+import Profile from './components/Profile';
+import Navbar from './components/Navbar';
+import Quiz from './components/Quiz';
+import About from './components/About';
 
 function App() {
   return (
-    <Router>
+    <BrowserRouter>
+      <Navbar />
       <Routes>
-        <Route path="/" element={<WelcomePage />} />
+        <Route path="/" element={<Home />} />
+        <Route path="/onboarding" element={<OnBoarding />} />
+        <Route path="/signup" element={<SignUp />} />
+        <Route path="/profile" element={<Profile />} />
+        <Route path="/quiz" element={<Quiz />} />
+        <Route path="/about" element={<About />} />
       </Routes>
-    </Router>
+    </BrowserRouter>
   );
 }
 
