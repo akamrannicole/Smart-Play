@@ -5,7 +5,7 @@ import Home from './pages/home'
 import OnBoarding from './pages/onboard'
 
 
-function App() {
+export default function App() {
   return (
     <>
       <BrowserRouter>

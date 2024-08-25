@@ -22,7 +22,7 @@ export default function Home() {
         </nav>
       </header>
       <main className="flex-1">
-        <section className="w-full py-12 md:py-24 lg:py-32 xl:py-48">
+        <section className="w-full py-12 md:py-24 lg:py-32 xl:py-48"  style={{ backgroundImage: `url('https://img.freepik.com/free-psd/back-school-podium-background_23-2150590239.jpg?t=st=1724548062~exp=1724551662~hmac=7ff89331d63b2bdcf9fc9db5f4b2036174c9e18532587a9991317421e23c56fb&w=996)` }}>
           <div className="container px-4 md:px-6">
             <div className="flex flex-col items-center space-y-4 text-center">
               <div className="space-y-2">
