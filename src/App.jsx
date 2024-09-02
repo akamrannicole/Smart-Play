@@ -6,6 +6,7 @@ import Profile from './components/Profile';
 import Navbar from './components/Navbar';
 import Quiz from './components/Quiz';
 import About from './components/About';
+import EducationLevels from './pages/EducationLevels';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
         <Route path="/profile" element={<Profile />} />
         <Route path="/quiz" element={<Quiz />} />
         <Route path="/about" element={<About />} />
+        <Route path="/education-levels" element={<EducationLevels/>} />
       </Routes>
     </BrowserRouter>
   );

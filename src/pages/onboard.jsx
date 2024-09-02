@@ -167,7 +167,7 @@ export default function OnBoarding() {
   }
 
   return (
-    <Card className="w-full max-w-lg">
+    <Card className="w-full max-w-lg mx-auto my-12">
       <CardHeader>
         <CardTitle className="text-2xl">Welcome to Your Learning Journey</CardTitle>
       </CardHeader>
