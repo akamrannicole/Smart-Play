@@ -7,6 +7,7 @@ import Navbar from './components/Navbar';
 import Quiz from './components/Quiz';
 import About from './components/About';
 import EducationLevels from './pages/EducationLevels';
+import EarlyYearsEducation from './pages/EarlyYearsEduaction';
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
         <Route path="/quiz" element={<Quiz />} />
         <Route path="/about" element={<About />} />
         <Route path="/education-levels" element={<EducationLevels/>} />
+        <Route path="/education/early-years-education" element={<EarlyYearsEducation />} />
       </Routes>
     </BrowserRouter>
   );
