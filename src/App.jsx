@@ -8,6 +8,10 @@ import Quiz from './components/Quiz';
 import About from './components/About';
 import EducationLevels from './pages/EducationLevels';
 import EarlyYearsEducation from './pages/EarlyYearsEduaction';
+import LowerPrimaryEducation from './pages/LowerPrimaryEducation';
+import MiddleSchoolEducation from './pages/MiddleSchoolEducation';
+import SeniorSchoolEducation from './pages/SeniorSchoolEducation';
+import TertiaryEducation from './pages/TertiaryAndUniversityEducation';
 
 function App() {
   return (
@@ -22,6 +26,10 @@ function App() {
         <Route path="/about" element={<About />} />
         <Route path="/education-levels" element={<EducationLevels/>} />
         <Route path="/education/early-years-education" element={<EarlyYearsEducation />} />
+        <Route path="/education/lower-primary-education" element={<LowerPrimaryEducation />} />
+        <Route path="/education/middle-school-education" element={<MiddleSchoolEducation />} />
+        <Route path="/education/senior-school-education" element={<SeniorSchoolEducation />} />
+        <Route path="/education/tertiary-and-university-education" element={<TertiaryEducation />} />
       </Routes>
     </BrowserRouter>
   );
