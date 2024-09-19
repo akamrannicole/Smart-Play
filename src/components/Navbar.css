@@ -1,7 +1,7 @@
 .navbar-container {
     width: 100%;
-    background: linear-gradient(90deg, rgb(8, 10, 10) 0%, rgb(225, 81, 119) 100%);
-    padding: 10px 20px;
+    background: whitesmoke;
+    padding: 10px 8px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -15,8 +15,8 @@
   }
   
   .navbar-logo {
-    color: #fff;
-    font-size: 24px;
+    color: rgb(255, 80, 17);
+    font-size: 35px;
     display: flex;
     align-items: center;
   }
@@ -39,7 +39,7 @@
   .nav-button {
     background: none;
     border: none;
-    color: #fff;
+    color: rgb(255, 80, 17);
     font-size: 16px;
     cursor: pointer;
     display: flex;

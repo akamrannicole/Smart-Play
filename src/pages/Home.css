@@ -1,0 +1,261 @@
+/* Home Container */
+.home-container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  overflow: hidden;
+}
+
+/* Main Content */
+.main-content {
+  flex: 1;
+  position: relative;
+  z-index: 10;
+}
+
+/* Container */
+.container {
+  padding: 0 1rem;
+  max-width: 1500px;
+  margin: 0 auto;
+}
+
+/* Hero Section */
+.hero-section {
+  padding: 18rem 0;
+}
+
+/* Updated Hero Section with Image */
+.hero-text-image-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Hero Text */
+.hero-text {
+  flex: 1;
+}
+
+.hero-title {
+  font-size: 3.25rem;
+  font-weight: bold;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  line-height: 1.2;
+  margin-bottom: 1rem;
+}
+
+.hero-description {
+  max-width: 500px;
+  margin-bottom: 1.5rem;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+/* Hero Buttons */
+.hero-buttons {
+  display: flex;
+  gap: 1rem;
+}
+
+/* Image Section */
+.hero-image {
+  flex: 1;
+  text-align: right;
+}
+
+.hero-side-image {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+/* Key Features Section */
+.features-section {
+  padding: 3rem 0;
+  background-color: #f3f4f6;
+}
+
+.features-header {
+  text-align: center;
+  margin-bottom: 2rem;
+  
+}
+
+.section-title {
+  font-size: 2.35rem;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+  color: #ff6239; 
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.section-description {
+  max-width: 900px;
+  margin: 0 auto;
+  font-size:1.5rem ;
+}
+
+.features-grid {
+  display: grid;
+  gap: 1.5rem;
+  max-width: 1200px;
+  margin: 0 auto;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.feature-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 1.5rem;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 0.5rem;
+  transition: transform 0.3s ease;
+}
+
+.feature-card:hover {
+  transform: scale(1.05);
+}
+
+/* Dark Orange Feature Icon */
+.feature-icon {
+  width: 3rem;
+  height: 3rem;
+  margin-bottom: 1rem;
+  color: #ff6239; 
+}
+
+.feature-title {
+  font-size: 1.25rem;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+  color: black; 
+}
+
+.feature-description {
+  color: #555;
+}
+.testimonials-section {
+  background-color: #f8f9fa; /* Light grey background */
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.testimonials-header .section-title {
+  font-size: 2.5rem;
+  color: #ff6239; /* Vibrant orange for title */
+  margin-bottom: 20px;
+}
+
+.testimonials-header .section-description {
+  font-size: 1.2rem;
+  color: #6c757d;
+  margin-bottom: 40px;
+}
+
+.testimonials-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 30px;
+}
+
+.testimonial-card {
+  background-color: white;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  transition: transform 0.3s ease;
+}
+
+.testimonial-card:hover {
+  transform: translateY(-10px); /* Hover effect for floating cards */
+}
+
+.testimonial-card-content {
+  text-align: left;
+}
+
+.testimonial-text {
+  font-size: 1rem;
+  color: #343a40;
+  margin-bottom: 10px;
+  position: relative;
+  padding: 15px;
+}
+
+.testimonial-text::before,
+.testimonial-text::after {
+  content: '“';
+  font-size: 2rem;
+  color: #ff6239; 
+  position: absolute;
+  top: -10px;
+}
+
+.testimonial-text::after {
+  content: '”';
+  right: 20px;
+}
+
+.testimonial-author {
+  font-size: 1rem;
+  color: #ff6239;
+  font-weight: bold;
+  text-align: left;
+}
+
+.testimonial-author::before {
+  content: "- ";
+}
+
+.testimonial-avatar {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-bottom: 15px;
+  object-fit: cover;
+}
+
+.testimonial-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+/* Footer */
+.footer {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  padding: 1.5rem 1rem;
+  border-top: 1px solid #e5e7eb;
+  background-color: #f9f9f9;
+}
+
+.footer-text {
+  font-size: 0.75rem;
+  text-align: center;
+}
+
+.footer-nav {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.footer-link {
+  font-size: 0.75rem;
+  text-decoration: none;
+  color: #333;
+}
+
+.footer-link:hover {
+  text-decoration: underline;
+}

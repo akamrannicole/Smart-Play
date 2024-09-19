@@ -23,7 +23,7 @@ const TertiaryEducation = () => {
         ))}
       </div>
       <div className="mt-8 text-center">
-        <Link to="/" className="text-green-500 hover:underline">
+        <Link to="/education-levels" className="text-green-500 hover:underline">
           Back to Education Levels
         </Link>
       </div>

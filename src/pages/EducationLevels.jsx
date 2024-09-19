@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 const educationLevels = [
   {
     title: "Early Years Education",
-    image: "/placeholder.svg",
+    image: "https://i.pinimg.com/474x/f3/4b/35/f34b3538f5b55c37425452f5a01f7602.jpg",
     slug: "early-years-education",
   },
   {

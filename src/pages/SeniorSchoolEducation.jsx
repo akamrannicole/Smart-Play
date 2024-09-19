@@ -39,7 +39,7 @@ const SeniorSchoolEducation = () => {
         </ul>
       </div>
       <div className="mt-8 text-center">
-        <Link to="/" className="text-blue-500 hover:underline">
+        <Link to="/education-levels" className="text-blue-500 hover:underline">
           Back to Education Levels
         </Link>
       </div>

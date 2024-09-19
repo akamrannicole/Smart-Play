@@ -28,16 +28,6 @@ function Navbar() {
           <FontAwesomeIcon icon={faBook} /> Smart-Play
         </div>
         <ul className="nav">
-          <li className="nav-item">
-            <button className="nav-button" onClick={() => navigate('/')}>
-              <FontAwesomeIcon icon={faHome} /> HOME
-            </button>
-          </li>
-          <li className="nav-item">
-            <button className="nav-button" onClick={() => navigate('/about')}>
-              <FontAwesomeIcon icon={faInfoCircle} /> ABOUT
-            </button>
-          </li>
           {user ? (
             <>
               <li className="nav-item user-info">
