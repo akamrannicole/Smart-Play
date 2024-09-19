@@ -15,6 +15,13 @@ export default function Home() {
           <div className="container">
             <div className="hero-content">
               <div className="hero-text-image-container">
+                <div className="hero-image">
+                  <img
+                    src="https://i.pinimg.com/564x/e8/9c/23/e89c23fe6c8a7cb082d12ccced3e3e4c.jpg" 
+                    alt="Learning Illustration"
+                    className="hero-side-image"
+                  />
+                </div>
                 <div className="hero-text">
                   <h1 className="hero-title">Master your skills, one quiz at a time</h1>
                   <p className="hero-description">
@@ -25,13 +32,6 @@ export default function Home() {
                       <Button className="btn-dark-orange" size="lg">Get Started</Button>
                     </Link>
                   </div>
-                </div>
-                <div className="hero-image">
-                  <img
-                    src="https://i.pinimg.com/564x/e8/9c/23/e89c23fe6c8a7cb082d12ccced3e3e4c.jpg" 
-                    alt="Learning Illustration"
-                    className="hero-side-image"
-                  />
                 </div>
               </div>
             </div>
@@ -83,9 +83,9 @@ export default function Home() {
                   imageUrl: 'https://i.pinimg.com/474x/fe/69/fe/fe69fe0a20a10b1665506bc8f8006aef.jpg'
                 },
                 {
-                  name: 'Jane Smith',
-                  text: 'I love how the platform adapts to my pace. It’s been an amazing tool for my studies.',
-                  imageUrl: 'https://i.pinimg.com/474x/20/5b/6c/205b6c589ea5f426154522f93d7d4550.jpg'
+                  name: 'John Doe',
+                  text: 'SmartPlay has transformed my learning experience. The quizzes are fun and engaging!',
+                  imageUrl: 'https://i.pinimg.com/474x/fe/69/fe/fe69fe0a20a10b1665506bc8f8006aef.jpg'
                 },
                 {
                   name: 'Emily Johnson',
